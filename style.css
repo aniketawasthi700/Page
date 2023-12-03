@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c0a0a0;
+    background-image:url(https://images2.fanpop.com/image/photos/12100000/jb-wall-justin-bieber-12161462-1440-662.jpg);
+    background-size: contain;
+}
+
+header {
+    background-color: #333;
+    background: transparent;
+    color: #4d014d;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo h1 {
+    background-color: #9e0ebb00;
+    background-position: center;
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 50px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    font-size: 1rem;
+}
+
+header ul li a {
+    color: rgb(240, 230, 239)202;
+    background: transparent;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('anime-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(39, 2, 62);
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #5b0059;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FF3E00;
+}
+
+.featured-movies {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.movie {
+    text-align: center;
+    background-color: #181616;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.movie h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.movie p {
+    font-size: 1rem;
+}
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    background: transparent;
+    color: #4d0471;
+    text-align: center;
+    padding: 20px 0;
+}
+h2{
+    text-align: center;
+    text: shadow 1px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+    color: #fff;
+
+}
